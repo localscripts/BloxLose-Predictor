@@ -1,0 +1,6 @@
+asyncio
+disnake
+aiohttp
+beautifulsoup4
+selenium
+webdriver_manager

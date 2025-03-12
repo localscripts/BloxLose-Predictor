@@ -1,0 +1,21 @@
+{
+    "embed_settings": {
+        "title": "BloxLose | It's losing.",
+        "description": "**· {odds:.2f}% That you win**\n ```{multiplier}x```",
+        "color": 310524,
+        "footer_text": "BloxLose - Crash",
+        "footer_icon_url": "https://github.com/localscripts/BloxLose/blob/main/Tools/BloxLose.png?raw=true"
+    },
+    "button_settings": {
+        "reroll_label": "Reroll",
+        "reroll_emoji": "🔄",
+        "reroll_style": "primary",
+        "invite_label": "Site",
+        "invite_url": "https://bloxlose.com/"
+    },
+    "crash_settings": {
+        "max_multiplier": 1000,
+        "increment_chance": 0.99,
+        "crash_chance": 0.01
+    }
+}

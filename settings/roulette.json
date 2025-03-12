@@ -1,0 +1,23 @@
+{
+    "embed_settings": {
+        "title": "BloxLose | It's losing.",
+        "description": "**· {odds:.2f}% That you win**\n{grid}",
+        "color": 310524,
+        "footer_text": "BloxLose - Roulette",
+        "footer_icon_url": "https://github.com/localscripts/BloxLose/blob/main/Tools/BloxLose.png?raw=true"
+    },
+    "button_settings": {
+        "reroll_label": "Reroll",
+        "reroll_emoji": "🔄",
+        "reroll_style": "primary",
+        "invite_label": "Site",
+        "invite_url": "https://bloxlose.com/"
+    },
+    "roulette_settings": {
+        "colors": [
+            {"color": "Red", "symbol": "🟥", "odds": 46.67},
+            {"color": "Purple", "symbol": "🟪", "odds": 46.67},
+            {"color": "Yellow", "symbol": "🟨", "odds": 6.66}
+        ]
+    }
+}

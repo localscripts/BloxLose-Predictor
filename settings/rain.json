@@ -1,0 +1,20 @@
+{
+    "minimum_amount": 500,
+    "refresh_rate": 30,
+    "windows_notification": true,
+    "webhook_enabled": true,
+    "webhook_ping": "No Pings! Still looking for bugs...",
+    "webhook": "https://discord.com/api/webhooks/1268227158644494366/PoN01cFt50eioA3UC48GZjrUqgScJrQXjwLHjyEGnqdYUjAXu8ZCKL3X8rR32RCESFUz",
+    "embed": {
+        "title": "Hosting a chat rain!",
+        "url": "https://bloxflip.com",
+        "color": 3148032,
+        "footer": {
+            "text": "BloxLose.com | It's Raining!",
+            "icon_url": "https://github.com/localscripts/BloxLose/blob/main/Tools/BloxLose.png?raw=true"
+        },
+        "image": {
+            "url": "https://github.com/localscripts/BloxLose/blob/main/Tools/LoadingClear.png?raw=true"
+        }
+    }
+}

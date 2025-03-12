@@ -1,0 +1,11 @@
+{
+    "embed": {
+        "color": 310524,
+        "title": "It is time to verify!",
+        "description": "- Please submit your code at [BloxLose.com](https://bloxlose.com/verify).\n```\nCODE\n```",
+        "footer": {
+            "text": "BloxLose.com | It's Verifying!",
+            "icon_url": "https://media.discordapp.net/attachments/1267809599939940487/1267812064374685758/BloxLose.png?ex=66ab76fe&is=66aa257e&hm=0d9a52621034a176d9d385ed3632bf7d13bc323e996e73931f1750bcd3ae64d6&format=webp&quality=lossless&width=670&height=670&"
+        }
+    }
+}

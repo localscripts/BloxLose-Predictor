@@ -1,0 +1,52 @@
+{
+    "embed_settings": {
+        "title": "BloxLose | It's losing.",
+        "description": "**· {odds:.2f}% That you win**\n{grid}",
+        "color": 310524,
+        "footer_text": "BloxLose - Towers",
+        "footer_icon_url": "https://github.com/localscripts/BloxLose/blob/main/Tools/BloxLose.png?raw=true"
+    },
+    "button_settings": {
+        "reroll_label": "Reroll",
+        "reroll_emoji": "🔄",
+        "reroll_style": "primary",
+        "invite_label": "Site",
+        "invite_url": "https://bloxlose.com/"
+    },
+    "grid_settings": {
+        "columns_difficulty_easy": 3,
+        "columns_difficulty_medium": 2,
+        "columns_difficulty_hard": 3,
+        "total_rows": 8,
+        "mine_symbol": "❌",
+        "guess_symbol": "💎",
+        "empty_symbol": "⬛"
+    },
+    "slash_commands": [
+        {
+            "name": "towers",
+            "description": "Send a custom towers embed.",
+            "parameters": [
+                {
+                    "name": "difficulty",
+                    "description": "The difficulty level.",
+                    "type": 3,
+                    "required": true,
+                    "choices": [
+                        {"name": "Easy", "value": "easy"},
+                        {"name": "Medium", "value": "medium"},
+                        {"name": "Hard", "value": "hard"}
+                    ]
+                },
+                {
+                    "name": "rows",
+                    "description": "The number of rows in the tower.",
+                    "type": 4,
+                    "required": true,
+                    "min_value": 1,
+                    "max_value": 8
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "embed_settings": {
+        "title": "BloxLose | It's losing.",
+        "description": "There are **{count}** verified users\nThere are **{unused_keys}** unused keys\nBot is in **{server_count}** servers\nTotal Members Combined: **{total_members_count}**",
+        "color": 310524,
+        "footer_text": "BloxLose - User Data",
+        "footer_icon_url": "https://github.com/localscripts/BloxLose/blob/main/Tools/BloxLose.png?raw=true"
+    }
+}

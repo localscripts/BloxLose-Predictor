@@ -1,0 +1,47 @@
+{
+    "embed_settings": {
+        "title": "BloxLose | It's losing.",
+        "description": "default_description", 
+        "color": 310524,
+        "footer_text": "BloxLose - Mines",
+        "footer_icon_url": "https://github.com/localscripts/BloxLose/blob/main/Tools/BloxLose.png?raw=true"
+    },
+    "button_settings": {
+        "reroll_label": "Reroll",
+        "reroll_emoji": "🔄",
+        "reroll_style": "primary",
+        "invite_label": "Site",
+        "invite_url": "https://bloxlose.com/"
+    },
+    "grid_settings": {
+        "total_tiles": 25,
+        "grid_size": 5,
+        "mine_symbol": "⬛",
+        "guess_symbol": "💎",
+        "formatted_grid_spaces": 2
+    },
+    "slash_commands": [
+        {
+            "name": "play_mines",
+            "description": "Play a custom mines game.",
+            "parameters": [
+                {
+                    "name": "amount_of_mines",
+                    "description": "The number of mines to place on the grid.",
+                    "type": 4,
+                    "required": true,
+                    "min_value": 1,
+                    "max_value": 24
+                },
+                {
+                    "name": "tiles_to_guess",
+                    "description": "The number of tiles to guess.",
+                    "type": 4,
+                    "required": true,
+                    "min_value": 1,
+                    "max_value": 25
+                }
+            ]
+        }
+    ]
+}
